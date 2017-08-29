@@ -12,7 +12,7 @@ This is an Eclipse project, you can import and run it in your Eclipse. Or direct
 
 # Testing results
 
-![](docs/images/Test Java File.png)
+![](docs/images/TestJavaFile.png)
 
 I wrote a test file called Test.java, which included some array read and array write operations. Some of them will lead to a failure because of invalid index values.
 
@@ -20,11 +20,11 @@ I wrote a test file called Test.java, which included some array read and array w
 
 Directly compile the Test.java, you will see a failure like this.
 
-![](docs/images/Analysis Result.png)
+![](docs/images/AnalysisResult.png)
 
 So we use foPreprocessor to handle this file, through the log, you can see that some codes have been transformed into failure-oblivious style.
 
-![](docs/images/Spooned Java File.png)
+![](docs/images/SpoonedJavaFile.png)
 
 Test.java has been transformed.
 
