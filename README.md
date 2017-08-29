@@ -16,7 +16,7 @@ This is an Eclipse project, you can import and run it in your Eclipse. Or direct
 
 I wrote a test file called Test.java, which included some array read and array write operations. Some of them will lead to a failure because of invalid index values.
 
-![](docs/images/before.png)
+![](docs/images/Before.png)
 
 Directly compile the Test.java, you will see a failure like this.
 
