@@ -8,27 +8,27 @@ This is an Eclipse project, you can import and run it in your Eclipse. Or direct
 
 # How to achieve this prototype
 
-![How to achieve this prototype](docs/images/FoPreprocessor.png)
+![](docs/images/FoPreprocessor.png)
 
 # Testing results
 
-![Test java file](docs/images/Test Java File.png)
+![](docs/images/Test Java File.png)
 
 I wrote a test file called Test.java, which included some array read and array write operations. Some of them will lead to a failure because of invalid index values.
 
-![Before processing](docs/images/before.png)
+![](docs/images/before.png)
 
 Directly compile the Test.java, you will see a failure like this.
 
-![Analysis log](docs/images/Analysis Result.png)
+![](docs/images/Analysis Result.png)
 
 So we use foPreprocessor to handle this file, through the log, you can see that some codes have been transformed into failure-oblivious style.
 
-![Spooned test java file](docs/images/Spooned Java File.png)
+![](docs/images/Spooned Java File.png)
 
 Test.java has been transformed.
 
-![After](docs/images/After.png)
+![](docs/images/After.png)
 
 After the pre-processing, we can compile the spooned Test.java again, and you will find that it can successfully run to the end!
 
