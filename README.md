@@ -6,11 +6,14 @@ The author of the paper implemented a safe compiler for C, and discussed the mec
 # Project Info
 This is an Eclipse project, you can import and run it in your Eclipse. Or directly read my screenshots as follows. I used Spoon to transform java codes in this project, you can see Spoon's introduction as follows.
 
-# How to achieve this prototype
+#Simplifying Assumptions
+This prototype only handles one-dimensional array reading or writing operations.
+
+# How to Achieve This Prototype
 
 ![](docs/images/FoPreprocessor.png)
 
-# Testing results
+# Testing Results
 
 ![](docs/images/TestJavaFile.png)
 
