@@ -7,10 +7,10 @@ The author of the paper implemented a safe compiler for C, and discussed the mec
 This is an Eclipse project, you can import and run it in your Eclipse. Or directly read my screenshots as follows. I used Spoon to transform java codes in this project, you can see Spoon's introduction as follows.
 
 # Updated Version
-Now this prototype can handle two-dimensional array reading or writing operations. Because for a two-dimensional array like array[a][b], we can handle array[a] first, it should return the first address of the row.
+Now this prototype can handle two-dimensional array reading or writing operations. Because for a two-dimensional array like `array[a][b]`, we can handle `array[a]` first, it should return the first address of the row.
 
 # Simplifying Assumptions
-~~ This prototype only handles one-dimensional array reading or writing operations. ~~
+~~This prototype only handles one-dimensional array reading or writing operations.~~
 
 # How to Achieve This Prototype
 
